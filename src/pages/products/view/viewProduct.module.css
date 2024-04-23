@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #191919;
+  width: 690px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.viewImgBig {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.viewImgSmall {
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.leftCont {
+  margin-right: 20px;
+}
+.title {
+  color: rgb(221, 230, 230);
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+}
+.description {
+  color: #7c7878;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.price {
+  padding: 0 50px;
+  color: rgb(71, 31, 120);
+  font-size: 35px;
+}
+.oldPrice {
+  padding: 0 50px;
+  color: #403f41;
+  font-size: 16px;
+  text-decoration-line: line-through;
+  margin-bottom: 50px;
+}
+.btnWraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.btnWraper a {
+  text-decoration: none;
+}
+.pBtn {
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 15px;
+  color: #7c7878;
+  text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .form {
+    width: 580px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .form {
+    flex-direction: column;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form {
+    width: 300px;
+  }
+  .viewImgBig {
+    width: 250px;
+  }
+}
